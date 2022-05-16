@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: radial-gradient(circle, rgb(28, 168, 228), rgb(251, 254, 254));
+}
+.header{
+    background-color: #0b0c0c66;
+    height: 100px;
+}
+.nav{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 10%;
+    left: 44%;
+    background-color: #0a0c0ceb;
+}
+.nav a{
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    border: 1px solid white;
+}
+.nav a:hover{
+    background-color: rgb(243, 249, 249);
+    color: black;
+}
+.Lueur{
+    padding: 20%;
+    text-align: center;
+    border: 2px solid red;
+}
