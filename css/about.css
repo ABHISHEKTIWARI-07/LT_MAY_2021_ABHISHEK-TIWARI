@@ -8,6 +8,9 @@
 body{
     background-image: radial-gradient(circle, rgb(28, 168, 228) 60%, rgb(251, 252, 254));
 }
+#explain{
+	display: none;
+}
 .section{
 	width: 100%;
 	min-height: 100vh;
@@ -19,19 +22,9 @@ body{
 	padding-top: 100px;
 }
 .content-section{
-	float: left;
-	width: 55%;
-}
-.image-section{
-	float: right;
-	width: 40%;
-    
-}
-.image-section img{
-	width:120%;
-	height: auto;
-    border-radius: 50px 5px;
-    box-shadow: 5px 10px 20px #131212;
+	display: block;
+	padding: 0%;
+	width: 100%;
 }
 .content-section .title{
 	text-transform: uppercase;
@@ -88,9 +81,12 @@ body{
 	margin:auto;
 }
 .image-section{
-	float:none;
-	width:100%;
+	float:left;
+	width:30%;
 	
+}
+.nav{
+	float: right;
 }
 .image-section img{
 	width: 100%;
